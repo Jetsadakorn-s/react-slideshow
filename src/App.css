@@ -36,7 +36,10 @@ body{
 }
 .slide{
     opacity: 0;
+    transition: 1s ease;
 }
 .slide.active{
     opacity: 1;
+    transform: scale(1.08);
+    transition-duration: 1s;
 }
